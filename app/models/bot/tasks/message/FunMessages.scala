@@ -29,17 +29,21 @@ object FunMessages {
       left = None
     ),
     MessageTree(
-      value = "I can't wait to introduce you to my mom!",
+      value = "{name} do you like The Little Mermaid?",
       right = Some(MessageTree(
-        value = "Since mom showed everyone my naked baby pictures, I've been looking fo ways to get her back.",
-        right = None,
-        left = None
-      )),
+        value = "Do you know the scene in Kiss the Girl where they're floating in a blue lagoon?",
+        right = Some(MessageTree(
+          value = "I found it. The lagoon. It's right here in DC!,
+          right = None,
+          left = None
+          )),
       left = Some(MessageTree(
-        value = "Please tell me you're at least a fan of moms.",
+        value = "Oh... I thought everyone liked that movie?",
         right = None,
         left = None
       ))
+    ),
+    
     )
   )
 
