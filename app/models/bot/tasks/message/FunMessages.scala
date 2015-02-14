@@ -33,7 +33,7 @@ object FunMessages {
       right = Some(MessageTree(
         value = "Do you know the scene in Kiss the Girl where they're floating in a blue lagoon?",
         right = Some(MessageTree(
-          value = "I found it. The lagoon. It's right here in DC!,
+          value = "I found it. The lagoon. It's right here in DC!",
           right = None,
           left = None
           )),
